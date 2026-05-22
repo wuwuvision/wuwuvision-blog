@@ -1,0 +1,29 @@
+# 北京吾悟视觉技术博客 - Jekyll 配置
+title: 北京吾悟视觉技术博客
+email: contact@wuwuvision.cn
+description: >-
+  北京吾悟视觉技术有限公司官方技术博客。
+  专注工业视觉OVR一站式解决方案，分享非标视觉检测、定位、测量实战经验。
+baseurl: "/blog"
+url: "https://wuwuvision.cn"
+github_username: wuwuvision
+
+# 主题配置
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO 优化
+lang: zh-CN
+author: 北京吾悟视觉技术有限公司
+logo: /blog/assets/logo.png
+
+# 构建配置
+markdown: kramdown
+permalink: /:categories/:title/
+
+# 首页显示
+paginate: 5
+paginate_path: "/page:num/"

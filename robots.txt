@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /blog/posts/
+Allow: /blog/about/
+Allow: /blog/feed.xml
+
+Sitemap: https://wuwuvision.github.io/wuwuvision-blog/sitemap.xml
+Sitemap: https://wuwuvision.github.io/wuwuvision-blog/sitemap-posts.xml
+
+# GEO优化：为AI搜索引擎提供完整内容索引
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
